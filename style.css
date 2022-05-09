@@ -1,0 +1,16 @@
+body{
+    background-color: FCF5E5;
+ }
+.art{
+    display:flex;
+    flex-direction: row;
+    height:400px;
+}
+.fruit img{
+    object-fit:contain;
+    height:70%;
+    width:100%;
+}
+.fruit p{
+    text-align:center;
+}
