@@ -4,7 +4,7 @@ body{
 .art{
     display:flex;
     flex-direction: row;
-    height:400px;
+    flex-wrap:wrap;
 }
 .fruit img{
     object-fit:contain;
@@ -14,3 +14,13 @@ body{
 .fruit p{
     text-align:center;
 }
+.fruit{
+    height:400px;
+    width:300px;
+    margin:20px;
+}
+
+@media only screen and (max-width: 800px) {
+ .fruit {width: 50%; margin:auto;
+   }
+  } 
