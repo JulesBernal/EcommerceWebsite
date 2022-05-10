@@ -1,5 +1,7 @@
 body{
-    background-color: FCF5E5;
+    display:block;
+    padding: 8px;
+    background-color: #FCF5E5;
  }
 .art{
     display:flex;
@@ -19,7 +21,25 @@ body{
     width:300px;
     margin:20px;
 }
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
 
+}
+ol{
+    float:left;
+}
+
+ol a{
+    text-decoration:none;
+    background-color:green;
+}
+ol a:hover{
+    text-decoration:none;
+    background-color:yellow;
+}
 @media only screen and (max-width: 800px) {
  .fruit {width: 50%; margin:auto;
    }
