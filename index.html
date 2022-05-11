@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css"> 
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="fruits/favicon.ico">
+    <meta name="description" content="Index Page welcoming people to my store website.">
 </head>
-<header>
+
+<body>
+    <header>
     <nav>
         <ul>
-            <ol>
-                <a href="index.html">Home</a>
-            </ol>
-            <ol>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
                 <a href="shop.html">Shop</a>
-            </ol>
-            <ol>
-                <a href="contact.html">contact</a>
-            </ol>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
         </ul>
     </nav></header>
-<body>
-    
-<section>
+<section class="wrapSection">
+    <article id="openText">
     <h1>Welcome to the New World Devil Fruit Trading Company</h1>
-    <h3>We here provide a variety of devil fruits fresh to eat, to trade, or to display.</h3>
+    <figure id="indexSlideshow">
+    <img class ="slideFig" src="ships/Galley-la_ship.webp" alt="Picture of the Galley-La Ship from One Piece">
+    <img class ="slideFig" src="fruits/Devil_Fruit.webp" alt="Picture of the Galley-La Ship from One Piece">
+    <img class ="slideFig" src="ships/Yonta_Maria.webp" alt="Picture of the Yonta Maria Ship from One Piece">
+    <img class ="slideFig" src="ships/treasure.jpg" alt="Picture of the treasure from One Piece"></figure>
+    <fig id="tabFig">
+    <span class="tabs" onclick="currentSlide(1)"></span>
+    <span class="tabs" onclick="currentSlide(2)"></span>
+    <span class="tabs" onclick="currentSlide(3)"></span>
+    </fig>
+    <h2>We here provide a variety of devil fruits fresh to eat, to trade, or to display.</h2>
     <h3>You want powerful strong devil fruits? Beautiful and serene devil fruits?
         or How about discreet and sneaky ones, we got them too!</h3>
     <h3>Paramecias, Logias, Zoans, you name it, we got it! If we don't have it, we can precure it for you!</h3>
-    <h3>so take off your peglegs, sit back and take a load off, and shop today!</h2>
+    <h3>so take off your peglegs, sit back and take a load off, and shop today!</h3></article>
 </section>
+<footer><p>Copyright &copy; 2022 Created by Jules Bernal Benitez</p><a src="https://github.com/JulesBernal">🐇</a></footer>
 </body>
 </html>
+<script src="script.js"></script>

@@ -1,9 +1,15 @@
 body{
+    background-image:url(fruits/paperBG.webp);
     display:block;
-    padding: 8px;
+    padding: 8px 0 0 0;
     background-color: #FCF5E5;
+    margin:0;
  }
-.art{
+
+.wrapSection{
+    min-height: calc(100vh - 77.8px);
+}
+.art,#contactFlex{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -12,9 +18,13 @@ body{
     object-fit:contain;
     height:70%;
     width:100%;
+    margin-bottom:5px;
 }
 .fruit p{
     text-align:center;
+    object-fit:contain;
+    background:beige;
+    margin:0;
 }
 .fruit{
     height:400px;
@@ -23,24 +33,60 @@ body{
 }
 ul{
 list-style-type:none;
+height:30px;
 margin:0;
 padding:0;
 overflow:hidden;
-
+background-color:orange;
 }
-ol{
+li{
     float:left;
+    height:100%;
+    margin:0;
+    padding:0;
+    overflow:hidden;
 }
-
-ol a{
+li a{
     text-decoration:none;
-    background-color:green;
+    text-align:center;
+    height:100%;
+    padding:7px 20px 0px 20px;
+    display:block;
 }
-ol a:hover{
-    text-decoration:none;
-    background-color:yellow;
+li a:hover{
+    background-color:red;
+}
+a:hover:not(.active){
+    background-color:darkred;
+}
+.active{
+    background-color:skyblue;
 }
 @media only screen and (max-width: 800px) {
- .fruit {width: 50%; margin:auto;
-   }
+ .fruit {width: 50%;height:50vh;margin:auto;}
+ .fruit img{height:60%;}
+ li{width:33%;}
+ header{margin-bottom:10px;}
   } 
+footer *{
+      background-color:orange;
+      margin:0px;
+      height:30px;
+      text-align:center;
+      padding:10px 0 0 0;
+  }
+#openText{
+    padding:0 0 0 10px;
+}
+#redShip{
+    height:50vh;
+}
+
+.slideShow{
+    max-width:1000px;
+    position:relative;
+    margin:auto;
+}
+.tab{
+    display:inline-block;
+}
