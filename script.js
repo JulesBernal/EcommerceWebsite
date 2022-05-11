@@ -12,7 +12,7 @@ function slideShow(n){
     let slides=document.getElementsByClassName("slideFig");
     let tabs=document.getElementsByClassName("tabs");
     if (slides.length<n){
-        slides.length;}
+        slides=1}
     if (1>n){
         slideNum=slides.length;
     }
