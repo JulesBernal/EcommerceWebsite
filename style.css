@@ -106,7 +106,7 @@ footer *{
     cursor:pointer;
     height:40px;
     width:40px;
-    
+    background-color:red;
 }
 #tabFig{
     display:block;
